@@ -1,0 +1,27 @@
+{
+  "name": "pipz-tracker",
+  "version": "0.1.0",
+  "description": "Pipz Tracker library.",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "keywords": [
+    "pipz",
+    "automation",
+    "tracker",
+    "tracking",
+    "events"
+  ],
+  "author": "Vitor Savedra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorSavedra/pipz-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VitorSavedra/pipz-tracker/issues"
+  },
+  "homepage": "https://github.com/VitorSavedra/pipz-tracker#readme"
+}
