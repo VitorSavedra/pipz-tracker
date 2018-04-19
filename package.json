@@ -14,7 +14,10 @@
     "tracking",
     "events"
   ],
-  "author": "Vitor Savedra",
+  "contributors": [
+    "Vitor Savedra <vitor-savedra@outlook.com> (github.com/vitorsavedra)", 
+    "Matheus Rodrigues <matheusrod92@gmail.com> (github.com/matheusrod92)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
