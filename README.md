@@ -14,7 +14,7 @@ npm install pipz-tracker
 ## Usage
 
 ```javascript
-import pipz from 'pipz-tracker';
+import 'pipz-tracker';
 ```
 
 Create a `.env` file in the root directory of your project. Add
