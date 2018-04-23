@@ -14,7 +14,7 @@ npm install pipz-tracker
 ## Usage
 
 ```javascript
-import 'pipz-tracker';
+import pipz from 'pipz-tracker';
 ```
 
 Create a `.env` file in the root directory of your project. Add
@@ -53,6 +53,35 @@ Or in your button/action element:
     });"
 >Download ebook!</button>
 ```
+
+Identify user:
+
+```javascript
+pipz.identify('12345', {
+        name: 'John Doe',
+        email: 'joe@doe.com',
+        job_title: 'Director of Sales',
+        phone: '+1089647827'
+});
+```
+
+Link user to company:
+
+```javascript
+pipz.identify('12345', {
+        name: 'John Doe',
+        email: 'joe@doe.com',
+        job_title: 'Director of Sales',
+        phone: '+1089647827',
+        company: {
+            remote_id: 'johndoe123Company',
+            name: 'JDoe LLC',
+            website: 'www.iamjohn.com'
+        }
+});
+```
+
+> In the example above, the unique identifier is `12345`.
 
 See more [here](https://docs.pipz.com/central-de-ajuda/event-tracking/enviar-eventos-personalizados).
 
